@@ -36,6 +36,10 @@ class ComposerStaticInitd04b91f2c1a06a2f1c4c7584d0250d10
             'Psr\\Container\\' => 14,
             'Prophecy\\' => 9,
         ),
+        'M' => 
+        array (
+            'MyCLabs\\Enum\\' => 13,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -87,6 +91,10 @@ class ComposerStaticInitd04b91f2c1a06a2f1c4c7584d0250d10
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
+        'MyCLabs\\Enum\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/myclabs/php-enum/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

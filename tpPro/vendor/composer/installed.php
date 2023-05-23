@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9f3a2abc781502b0fcf7f8f2efd819714e9d58a2',
+        'reference' => 'e70cc8eec1dc5d5605adb0bacc4e5bfd61dd6713',
         'name' => 'php-solution/tp-pro',
         'dev' => true,
     ),
@@ -64,6 +64,15 @@
             'reference' => '7284c22080590fb39f2ffa3e9057f10a4ddd0e0c',
             'dev_requirement' => true,
         ),
+        'myclabs/php-enum' => array(
+            'pretty_version' => '1.7.7',
+            'version' => '1.7.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../myclabs/php-enum',
+            'aliases' => array(),
+            'reference' => 'd178027d1e679832db9f38248fcc7200647dc2b7',
+            'dev_requirement' => false,
+        ),
         'phar-io/manifest' => array(
             'pretty_version' => '1.0.3',
             'version' => '1.0.3.0',
@@ -88,7 +97,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9f3a2abc781502b0fcf7f8f2efd819714e9d58a2',
+            'reference' => 'e70cc8eec1dc5d5605adb0bacc4e5bfd61dd6713',
             'dev_requirement' => false,
         ),
         'phpdocumentor/reflection-common' => array(
