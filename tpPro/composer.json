@@ -1,0 +1,12 @@
+{
+    "name": "php-solution/tp-pro",
+    "autoload": {
+        "files": ["src/helper.php"],
+        "psr-4": {
+            "phpSolution\\TpPro\\": "src/"
+        }
+    },
+    "require": {
+        "topthink/framework": "^6.1"
+    }
+}
