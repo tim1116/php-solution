@@ -4,12 +4,12 @@
  * This file is part of the php-solution/tp-pro package.
  */
 
-namespace Jianzhi\tests\log;
+namespace phpSolution\TpPro\tests\driver;
 
-use Jianzhi\JzTool\log\EsLog;
-use Jianzhi\tests\InteractsWithApp;
 use Mockery as m;
 use Mockery\MockInterface;
+use phpSolution\TpPro\driver\EsLog;
+use phpSolution\TpPro\tests\InteractsWithApp;
 use PHPUnit\Framework\TestCase;
 use think\log\Channel;
 
@@ -40,17 +40,17 @@ class EsLogTest extends TestCase
     {
         $config = [
             'channels' => [
-                'jz-es' => [
-                    'type'           => 'Jianzhi\JzTool\log\EsLog',
+                'es' => [
+                    'type'           => 'phpSolution\TpPro\driver\EsLog',
                     'realtime_write' => true,
-                    'tag'            => 'jz_es',
+                    'tag'            => 'es',
                 ],
             ],
         ];
 
         $this->config->set($config, 'log');
         // 加载es日志通道
-        $esChannel = \think\facade\Log::channel('jz-es');
+        $esChannel = \think\facade\Log::channel('es');
 
         return $esChannel;
     }
@@ -61,8 +61,9 @@ class EsLogTest extends TestCase
     public function testSave(Channel $channel)
     {
         $logFile = $this->esLog->getMasterLogFile();
-
         is_file($logFile) && unlink($logFile);
+
+        var_dump($logFile);
 
         $channel->info('foo_info');
         $this->assertTrue(is_file($logFile));

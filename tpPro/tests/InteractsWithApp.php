@@ -1,12 +1,10 @@
 <?php
 
 /*
- * This file is part of the jz-tool package.
- *
- * @link     https://composer.jianzhikeji.com/
+ * This file is part of the php-solution/tp-pro package.
  */
 
-namespace Jianzhi\tests;
+namespace phpSolution\TpPro\tests;
 
 use Mockery as m;
 use Mockery\MockInterface;

@@ -20,6 +20,7 @@ class ComposerStaticInitd04b91f2c1a06a2f1c4c7584d0250d10
         ),
         'p' => 
         array (
+            'phpSolution\\TpPro\\tests\\' => 24,
             'phpSolution\\TpPro\\' => 18,
             'phpDocumentor\\Reflection\\' => 25,
         ),
@@ -49,6 +50,10 @@ class ComposerStaticInitd04b91f2c1a06a2f1c4c7584d0250d10
             1 => __DIR__ . '/..' . '/topthink/think-helper/src',
             2 => __DIR__ . '/..' . '/topthink/think-orm/src',
         ),
+        'phpSolution\\TpPro\\tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
         'phpSolution\\TpPro\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -56,8 +61,8 @@ class ComposerStaticInitd04b91f2c1a06a2f1c4c7584d0250d10
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Webmozart\\Assert\\' => 
         array (

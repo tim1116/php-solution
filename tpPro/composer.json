@@ -6,6 +6,11 @@
             "phpSolution\\TpPro\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "phpSolution\\TpPro\\tests\\": "tests/"
+        }
+    },
     "require": {
         "topthink/framework": "^6.1"
     },
