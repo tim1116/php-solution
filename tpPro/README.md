@@ -25,4 +25,6 @@ php-cs-fixer fix .
 
 ##### 1:自定义日志驱动 
 
+ESLog: 日志输出为指定格式，通过logstash采集
+
 
